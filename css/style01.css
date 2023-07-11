@@ -62,16 +62,19 @@ p{
 .flower-content
 {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
+    gap: 20px;
 }
 .flower-content img
 {
     width: 200px;
     height: 280px;
 }
-.f1, .f2, .f3{
-    margin: 5px;
+.f1, .f2, .f3
+{
+    margin: 35px;
+    margin-bottom: 0%;
     padding: 50px;
     padding-bottom: 0%;
     border-top-left-radius: 50%;
@@ -162,3 +165,24 @@ p{
     text-align: center;
     background-color: #1f1d1d;
 }
+.bonus
+{
+    padding: 10%;
+    display: flex;
+    background-color: rgb(157, 224, 224);
+    /* text-align: justify; */
+    align-items: center;
+}
+.c1{
+    padding: 2%;
+    text-align:left;
+    color: rgb(141, 35, 35);
+}
+.color
+{
+    text-align:start;
+    color: rgb(163, 54, 54);
+    text-transform: capitalize;
+   
+}
+
